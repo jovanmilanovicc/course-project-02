@@ -51,7 +51,7 @@ main h1{
 }
 
 #products{
-    width: 80%;
+    width: 65%;
     margin: 2.2rem auto;
 }
 
@@ -91,6 +91,22 @@ main h1{
 .btn:hover{
     background-color: rgb(221, 134, 24);
     transition: 0.4s ease;
+
+}
+
+@media (max-width: 48rem){
+    #products ul{
+        grid-template-columns: 100%;
+    }
+
+    main h1{
+        font-size: 1.5rem;
+    }
+
+    header li{
+        display: none;
+
+    }
 
 }
 
